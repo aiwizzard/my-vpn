@@ -1,0 +1,6 @@
+aws_region      = "us-east-1"
+instance_type   = "t2.micro"
+key_name        = "your-ssh-key-name"  # Name of your SSH key in AWS
+allowed_ssh_cidr = "YOUR_IP_ADDRESS/32"  # Your public IP for SSH access
+# ami_id         = ""  # Optional, uncomment to specify a custom AMI ID
+# subnet_id      = ""  # Optional, uncomment to specify a subnet ID 
